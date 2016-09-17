@@ -2,6 +2,10 @@
 使用指令来实现瀑布流的效果，但是这个指令适用有局限性,当你需求满足以下几点的时候，你可以使用这个指令来完成瀑布流效果，如果你发现你的需求不满足以下条件，你可以尝试下 __[ngInfiniteScroll](https://github.com/sroze/ngInfiniteScroll)__ 
 * 滚动的容器高度固定
 
+### Demo
+-------
+* __[Demo](http://codepen.io/SzHeJason/pen/LRkdjK)__
+
 ### Bower
 --------
 ```

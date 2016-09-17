@@ -10,6 +10,8 @@
   "license": "ISC",
   "devDependencies": {
     "bower": "^1.7.9",
-    "gulp": "^3.9.1"
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^2.0.0"
   }
 }
