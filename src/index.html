@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="MyApp">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Demo</title>
+    <script src="./lib/angular/angular.js"></script>
+    <script src="./scroll.js"></script>
+    <script src="./demo.js"></script>
+    <style>
+        .holder {
+            overflow: scroll;
+            height: 600px;
+        }
+        .list-holder {
+            background-color: #ccc;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+
+<body ng-controller="TestCtrl as vm">
+    <div water-scroll scroll-container="list" scroll-load="vm.loadData()" class="holder">
+        <ul class="list-holder" id="list">
+            <li ng-repeat="item in vm.listData">
+                {{item.name}}
+            </li>
+        </ul>
+    </div>
+
+</body>
+
+</html>
