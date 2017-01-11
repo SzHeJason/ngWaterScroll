@@ -1,5 +1,6 @@
 angular.module('waterScroll', [])
-    return {
+    .directive('waterScroll', ['$rootScope', function ($rootScope) {
+        return {
             scope: {
                 scrollDistance: "@",
                 scrollLoad: "&",
