@@ -9,13 +9,11 @@ angular.module('MyApp', ['waterScroll'])
 
         vm.loadData = function() {
             count++;
-            console.log(1);
             if (count < 60) {
                 vm.listData.push({
                     name: count
                 })
                 $scope.$broadcast('scrollLoadingFinfish')
-
             } else {
                 $scope.$broadcast('stopLoading')
                 $timeout(function() {
